@@ -45,7 +45,8 @@
 
 1. Завантажте `TelegramCampaignManager-win64.zip` у розділі
    [Releases](https://github.com/cerveilance/TG-Campaign/releases/latest) і розпакуйте.
-2. Запустіть `TelegramCampaignManager.exe`.
+2. Запустіть `TelegramCampaignManager.exe` (не переносьте його окремо від теки `_internal` — для Робочого столу
+   створіть ярлик).
    Якщо Windows покаже «Windows захистила ваш комп’ютер» — «Докладніше» → «Виконати однаково».
 3. Відкриється екран активації з **кодом вашого комп’ютера** (`XXXX-XXXX-XXXX`).
 4. Надішліть цей код у Telegram **[@osakato](https://t.me/osakato)** і отримайте ключ
@@ -137,7 +138,8 @@
 
 1. Скачайте `TelegramCampaignManager-win64.zip` в разделе
    [Releases](https://github.com/cerveilance/TG-Campaign/releases/latest) и распакуйте.
-2. Запустите `TelegramCampaignManager.exe`.
+2. Запустите `TelegramCampaignManager.exe` (не переносите его отдельно от папки `_internal` — для Рабочего
+   стола создайте ярлык).
    Если Windows покажет «Windows защитила ваш компьютер» — «Подробнее» → «Выполнить в любом случае».
 3. Откроется экран активации с **кодом вашего компьютера** (`XXXX-XXXX-XXXX`).
 4. Отправьте этот код в Telegram **[@osakato](https://t.me/osakato)** и получите ключ
@@ -229,7 +231,8 @@ announcements, news, reminders — without copy-pasting into every chat by hand.
 
 1. Download `TelegramCampaignManager-win64.zip` from
    [Releases](https://github.com/cerveilance/TG-Campaign/releases/latest) and unzip it.
-2. Run `TelegramCampaignManager.exe`.
+2. Run `TelegramCampaignManager.exe` (keep it together with the `_internal` folder — create a shortcut
+   for the Desktop).
    If Windows shows "Windows protected your PC", click "More info" → "Run anyway".
 3. An activation screen shows **your computer code** (`XXXX-XXXX-XXXX`).
 4. Send this code on Telegram to **[@osakato](https://t.me/osakato)** and receive a key
