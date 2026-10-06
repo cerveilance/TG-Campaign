@@ -80,6 +80,26 @@
 - Програма надсилає повідомлення, доки вона запущена (можна згорнутою в трей).
 - Ваші дані зберігаються в `%APPDATA%\TelegramCampaignManager` — нікому не передавайте цю теку.
 
+### 🔒 Безпека та конфіденційність
+
+- **Дані лише на вашому комп’ютері.** У програми немає власного сервера: вона з’єднується тільки з
+  серверами Telegram. Ліцензія перевіряється без інтернету.
+- **Перевірте самі:** [TCPView](https://learn.microsoft.com/sysinternals/downloads/tcpview) від Microsoft
+  або «Монітор ресурсів» → «Мережа» покажуть з’єднання лише з адресами Telegram (`149.154.x.x`,
+  `91.108.x.x`) і з самою програмою (`127.0.0.1`). Вбудований у Windows WebView2 може робити службові
+  з’єднання з Microsoft.
+- **Ви контролюєте доступ:** вхід програми видно в Telegram → *Налаштування → Пристрої*. Завершіть цю
+  сесію будь-коли — і програма одразу втратить доступ.
+- **Шифрування:** сесії Telegram зашифровані, ключ захищений засобами Windows (DPAPI) — копія теки на
+  іншому комп’ютері чи в іншого користувача нічого не дасть.
+- Пароль 2FA **не зберігається**; API ID / API HASH — ваші власні з my.telegram.org.
+- Програмою можна керувати **лише з її власного вікна** — сторонні сайти в браузері не мають до неї доступу.
+- Хочете перевірити без ризику? Пробний ключ на 1 день безкоштовний — спробуйте на другорядному
+  акаунті Telegram або в «Пісочниці Windows» (Windows Sandbox).
+- **Перевірка файлу:** контрольна сума SHA-256 — в описі кожного релізу; її можна перевірити на
+  [VirusTotal](https://www.virustotal.com). Програми, зібрані PyInstaller, іноді дають 1–5 хибних
+  спрацювань антивірусів.
+
 ---
 
 ## 🇷🇺 Русский
@@ -152,6 +172,26 @@
 - Программа отправляет сообщения, пока она запущена (можно свёрнутой в трей).
 - Ваши данные хранятся в `%APPDATA%\TelegramCampaignManager` — никому не передавайте эту папку.
 
+### 🔒 Безопасность и конфиденциальность
+
+- **Данные только на вашем компьютере.** У программы нет собственного сервера: она подключается только к
+  серверам Telegram. Лицензия проверяется без интернета.
+- **Проверьте сами:** [TCPView](https://learn.microsoft.com/sysinternals/downloads/tcpview) от Microsoft
+  или «Монитор ресурсов» → «Сеть» покажут подключения только к адресам Telegram (`149.154.x.x`,
+  `91.108.x.x`) и к самой программе (`127.0.0.1`). Встроенный в Windows WebView2 может делать служебные
+  подключения к Microsoft.
+- **Вы контролируете доступ:** вход программы виден в Telegram → *Настройки → Устройства*. Завершите эту
+  сессию в любой момент — и программа сразу потеряет доступ.
+- **Шифрование:** сессии Telegram зашифрованы, ключ защищён средствами Windows (DPAPI) — копия папки на
+  другом компьютере или у другого пользователя ничего не даст.
+- Пароль 2FA **не сохраняется**; API ID / API HASH — ваши собственные с my.telegram.org.
+- Управлять программой можно **только из её собственного окна** — сторонние сайты в браузере не имеют к ней доступа.
+- Хотите проверить без риска? Пробный ключ на 1 день бесплатный — попробуйте на второстепенном
+  аккаунте Telegram или в «Песочнице Windows» (Windows Sandbox).
+- **Проверка файла:** контрольная сумма SHA-256 — в описании каждого релиза; её можно проверить на
+  [VirusTotal](https://www.virustotal.com). Программы, собранные PyInstaller, иногда дают 1–5 ложных
+  срабатываний антивирусов.
+
 ---
 
 ## 🇬🇧 English
@@ -222,6 +262,26 @@ everything before buying. A key is bound to one computer.
   [Telegram](https://telegram.org/tos).
 - The app sends messages while it is running (it can stay minimized in the tray).
 - Your data is stored in `%APPDATA%\TelegramCampaignManager` — never share this folder.
+
+### 🔒 Security and privacy
+
+- **Your data stays on your computer.** The app has no server of its own: it connects only to
+  Telegram's servers. The license is checked offline.
+- **Check it yourself:** Microsoft [TCPView](https://learn.microsoft.com/sysinternals/downloads/tcpview)
+  or Resource Monitor → Network will show connections only to Telegram addresses (`149.154.x.x`,
+  `91.108.x.x`) and to the app itself (`127.0.0.1`). Windows' built-in WebView2 may make its own service
+  connections to Microsoft.
+- **You stay in control:** the app's login appears in Telegram → *Settings → Devices*. Terminate that
+  session at any time and the app instantly loses access.
+- **Encryption:** Telegram sessions are encrypted and the key is protected by Windows (DPAPI) — a copy of
+  the folder is useless on another computer or another Windows user.
+- The 2FA password is **never stored**; API ID / API HASH are your own from my.telegram.org.
+- The app can be controlled **only from its own window** — other websites in your browser cannot access it.
+- Want to try without risk? The 1-day trial key is free — test it with a secondary Telegram account or
+  in Windows Sandbox.
+- **Verify the file:** the SHA-256 checksum is listed in every release; you can check it on
+  [VirusTotal](https://www.virustotal.com). Apps built with PyInstaller sometimes get 1–5 false-positive
+  antivirus detections.
 
 ---
 
