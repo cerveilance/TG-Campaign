@@ -36,7 +36,7 @@
 
 ### Вимоги
 
-- Windows 10 або 11 (64-біт)
+- Windows 10 або 11 (64-біт) **або macOS 11+** (Apple Silicon M1–M4 чи Intel)
 - Microsoft Edge WebView2 — у Windows 11 уже є; для Windows 10:
   [завантажити](https://go.microsoft.com/fwlink/p/?LinkId=2124703)
 - Інтернет і власний акаунт Telegram
@@ -52,6 +52,17 @@
 4. Надішліть цей код у Telegram **[@osakato](https://t.me/osakato)** і отримайте ключ
    (пробний на 1 день — безкоштовно).
 5. Вставте ключ (починається з `TCM-`) і натисніть **«Активувати»**.
+
+### 🍎 macOS
+
+1. У [Releases](https://github.com/cerveilance/TG-Campaign/releases/latest) завантажте
+   `TelegramCampaignManager-macOS-arm64.zip` (Apple Silicon M1–M4) або `…-macOS-x86_64.zip` (Intel).
+   Який у вас Mac:  → «Про цей Mac» → «Чип».
+2. Розпакуйте й перетягніть **Telegram Campaign Manager.app** у «Програми».
+3. Перший запуск: macOS попередить, що не може перевірити розробника → **Системні налаштування →
+   Конфіденційність і безпека → «Все одно відкрити»** (macOS 13–14: правий клік → «Відкрити»).
+4. Активація така сама, як на Windows. Червона кнопка закриває програму (розсилка зупиниться) —
+   щоб працювала у фоні, згорніть у Dock (жовта кнопка).
 
 ### Види доступу
 
@@ -129,7 +140,7 @@
 
 ### Требования
 
-- Windows 10 или 11 (64-бит)
+- Windows 10 или 11 (64-бит) **или macOS 11+** (Apple Silicon M1–M4 или Intel)
 - Microsoft Edge WebView2 — в Windows 11 уже есть; для Windows 10:
   [скачать](https://go.microsoft.com/fwlink/p/?LinkId=2124703)
 - Интернет и собственный аккаунт Telegram
@@ -145,6 +156,17 @@
 4. Отправьте этот код в Telegram **[@osakato](https://t.me/osakato)** и получите ключ
    (пробный на 1 день — бесплатно).
 5. Вставьте ключ (начинается с `TCM-`) и нажмите **«Активировать»**.
+
+### 🍎 macOS
+
+1. В [Releases](https://github.com/cerveilance/TG-Campaign/releases/latest) скачайте
+   `TelegramCampaignManager-macOS-arm64.zip` (Apple Silicon M1–M4) или `…-macOS-x86_64.zip` (Intel).
+   Какой у вас Mac:  → «Об этом Mac» → «Чип».
+2. Распакуйте и перетащите **Telegram Campaign Manager.app** в «Программы».
+3. Первый запуск: macOS предупредит, что не может проверить разработчика → **Системные настройки →
+   Конфиденциальность и безопасность → «Всё равно открыть»** (macOS 13–14: правый клик → «Открыть»).
+4. Активация такая же, как на Windows. Красная кнопка закрывает программу (рассылка остановится) —
+   чтобы работала в фоне, сверните в Dock (жёлтая кнопка).
 
 ### Виды доступа
 
@@ -222,7 +244,7 @@ announcements, news, reminders — without copy-pasting into every chat by hand.
 
 ### Requirements
 
-- Windows 10 or 11 (64-bit)
+- Windows 10 or 11 (64-bit) **or macOS 11+** (Apple Silicon M1–M4 or Intel)
 - Microsoft Edge WebView2 — built into Windows 11; for Windows 10:
   [download](https://go.microsoft.com/fwlink/p/?LinkId=2124703)
 - Internet connection and your own Telegram account
@@ -238,6 +260,17 @@ announcements, news, reminders — without copy-pasting into every chat by hand.
 4. Send this code on Telegram to **[@osakato](https://t.me/osakato)** and receive a key
    (the 1-day trial key is free).
 5. Paste the key (starts with `TCM-`) and press **"Activate"**.
+
+### 🍎 macOS
+
+1. From [Releases](https://github.com/cerveilance/TG-Campaign/releases/latest) download
+   `TelegramCampaignManager-macOS-arm64.zip` (Apple Silicon M1–M4) or `…-macOS-x86_64.zip` (Intel).
+   Which Mac:  → About This Mac → Chip.
+2. Unzip and drag **Telegram Campaign Manager.app** to Applications.
+3. First start: macOS warns it cannot verify the developer → **System Settings → Privacy & Security →
+   "Open Anyway"** (macOS 13–14: right-click → Open).
+4. Activation works the same as on Windows. The red button quits the app (sending stops) —
+   to keep sending, minimise it to the Dock (yellow button).
 
 ### Access options
 
