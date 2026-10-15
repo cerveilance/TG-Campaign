@@ -8,6 +8,8 @@
 
 [⬇️ Завантажити / Скачать / Download](https://github.com/cerveilance/TG-Campaign/releases/latest)
 
+🔖 Поточна версія / Текущая версия / Current version: **[v1.0.5](https://github.com/cerveilance/TG-Campaign/releases/tag/v1.0.5)** — Windows · macOS (Apple Silicon / Intel)
+
 ---
 
 ## 🇺🇦 Українська
