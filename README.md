@@ -111,7 +111,7 @@
 - Хочете перевірити без ризику? Пробний ключ на 1 день безкоштовний — спробуйте на другорядному
   акаунті Telegram або в «Пісочниці Windows» (Windows Sandbox).
 - **Перевірка файлу:** контрольна сума SHA-256 — в описі кожного релізу; її можна перевірити на
-  [VirusTotal](https://www.virustotal.com). Програми, зібрані PyInstaller, іноді дають 1–5 хибних
+  [VirusTotal](https://www.virustotal.com/gui/file/c98eaf20861f95dd0b028eb8535ec09f9c5073b9cddeb2e684d967afc8372f9a). Програми, зібрані PyInstaller, іноді дають 1–5 хибних
   спрацювань антивірусів.
 
 ---
@@ -215,7 +215,7 @@
 - Хотите проверить без риска? Пробный ключ на 1 день бесплатный — попробуйте на второстепенном
   аккаунте Telegram или в «Песочнице Windows» (Windows Sandbox).
 - **Проверка файла:** контрольная сумма SHA-256 — в описании каждого релиза; её можно проверить на
-  [VirusTotal](https://www.virustotal.com). Программы, собранные PyInstaller, иногда дают 1–5 ложных
+  [VirusTotal](https://www.virustotal.com/gui/file/c98eaf20861f95dd0b028eb8535ec09f9c5073b9cddeb2e684d967afc8372f9a). Программы, собранные PyInstaller, иногда дают 1–5 ложных
   срабатываний антивирусов.
 
 ---
@@ -318,7 +318,7 @@ everything before buying. A key is bound to one computer.
 - Want to try without risk? The 1-day trial key is free — test it with a secondary Telegram account or
   in Windows Sandbox.
 - **Verify the file:** the SHA-256 checksum is listed in every release; you can check it on
-  [VirusTotal](https://www.virustotal.com). Apps built with PyInstaller sometimes get 1–5 false-positive
+  [VirusTotal](https://www.virustotal.com/gui/file/c98eaf20861f95dd0b028eb8535ec09f9c5073b9cddeb2e684d967afc8372f9a). Apps built with PyInstaller sometimes get 1–5 false-positive
   antivirus detections.
 
 ---
