@@ -1,5 +1,11 @@
 # Telegram Campaign Manager
 
+![Release](https://img.shields.io/github/v/release/cerveilance/TG-Campaign?label=release&color=blue)
+![Downloads](https://img.shields.io/github/downloads/cerveilance/TG-Campaign/total?label=downloads&color=success)
+![Stars](https://img.shields.io/github/stars/cerveilance/TG-Campaign?label=stars&color=yellow&logo=github)
+![Python](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
+![OS](https://img.shields.io/badge/OS-Windows%20%7C%20macOS-0078D6)
+
 **[🇺🇦 Українська](#-українська) · [🇷🇺 Русский](#-русский) · [🇬🇧 English](#-english)**
 
 > 💰 **Платна програма · Платная программа · Paid software**
